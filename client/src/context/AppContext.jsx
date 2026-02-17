@@ -1,7 +1,7 @@
-import { createContext, use, useContext } from "react";
+import { createContext, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import dummyUserData from "../data/dummyUserData.json";
-import dummyChats from "../data/dummyChats.json";
+import { dummyUserData } from "../assets/assets";
+import { dummyChats } from "../assets/assets";
 import { useState, useEffect } from "react";
 
 const AppContxt = createContext();
